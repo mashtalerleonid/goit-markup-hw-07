@@ -1,0 +1,26 @@
+.form-recall__field--textarea {
+  @extend .form-recall__field;
+
+  margin-bottom: 20px;
+}
+
+.form-recall__input--textarea {
+  @extend .form-recall__input;
+
+  padding: 11px 15px;
+  resize: none;
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+
+  &:not(:placeholder-shown) {
+    cursor: text;
+    border-color: $accent-color;
+  }
+
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
+}
