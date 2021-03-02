@@ -3,14 +3,11 @@
 }
 
 .page-header__container {
-  @extend .container;
   display: flex;
   align-items: center;
 }
 
 .page-header__logo {
-  @extend %logo;
-
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -54,8 +51,6 @@
 }
 
 .site-nav__link--current {
-  @extend .site-nav__link;
-
   color: $accent-color;
 
   &::after {

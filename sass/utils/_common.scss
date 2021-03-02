@@ -19,6 +19,16 @@
   padding: 0 15px;
 }
 
+.logo {
+  @extend %link;
+
+  color: $accent-color;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
 .button {
   display: flex;
   width: 200px;
@@ -46,6 +56,18 @@
   &:focus {
     background-color: $accent-hover-color;
   }
+}
+
+.social-networks__link {
+  @extend %link;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
 }
 
 .visually-hidden {

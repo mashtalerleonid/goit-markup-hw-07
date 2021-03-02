@@ -10,8 +10,6 @@
 }
 
 .social-networks__link--company {
-  @extend %social-networks__link;
-
   background-color: rgba(255, 255, 255, 0.1);
   color: $white-color;
 

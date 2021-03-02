@@ -1,5 +1,4 @@
 .team__section {
-  @extend .section;
   background-color: $secondary-bg-color;
 }
 
@@ -52,8 +51,6 @@
 }
 
 .social-networks__link--personal {
-  @extend %social-networks__link;
-
   color: $social-link-color;
 
   transition: color $transition-type, background-color $transition-type;

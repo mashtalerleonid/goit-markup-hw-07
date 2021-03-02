@@ -1,10 +1,8 @@
 .form-recall__field--textarea {
-  @extend .form-recall__field;
-
   margin-bottom: 20px;
 }
 
-.form-recall__input--textarea {
+.form-recall__textarea {
   @extend .form-recall__input;
 
   padding: 11px 15px;

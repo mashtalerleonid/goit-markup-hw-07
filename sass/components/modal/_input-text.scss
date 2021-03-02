@@ -32,12 +32,6 @@
     cursor: pointer;
   }
 
-  &:hover + .form-recall__icon,
-  &:focus + .form-recall__icon,
-  &:not(:placeholder-shown) + .form-recall__icon {
-    fill: $accent-color;
-  }
-
   &:not(:placeholder-shown) {
     cursor: text;
     border-color: $accent-color;
@@ -52,4 +46,10 @@
   fill: $title-text-color;
 
   transition: fill $transition-type;
+
+  .form-recall__input:hover + &,
+  .form-recall__input:focus + &,
+  .form-recall__input:not(:placeholder-shown) + & {
+    fill: $accent-color;
+  }
 }

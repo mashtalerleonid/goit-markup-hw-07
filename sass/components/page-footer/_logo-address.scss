@@ -5,14 +5,12 @@
 }
 
 .footer__container {
-  @extend .container;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
 
 .footer__logo {
-  @extend %logo;
   display: block;
   padding-bottom: 20px;
 }
@@ -42,6 +40,5 @@
 }
 
 .address__link--white {
-  @extend .address__link;
   color: $white-color;
 }
